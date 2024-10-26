@@ -1,0 +1,149 @@
+:root {
+  background-color: #242424;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #242424;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+  text-align: center;
+  background-color: #aa0000;
+  min-height: 44em;
+  width: 70em;
+  height: 95%;
+  margin: auto;
+  border-radius: 4px;
+}
+
+h1 {
+  background-color: #990000;
+  margin-top: 4px;
+}
+
+.box {
+  text-align: center;
+  background-color: #aaaa00;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  /*  min-height: 34em;
+  //height:90%;
+  //max-width: 50%;*/
+  width:90%;
+  margin: 7px;
+  margin-top: -17px;
+
+  border-radius: 4px;
+}
+
+.left {
+  background-color: #00aaaa;
+
+  margin: 7px;
+  margin-right: 0px;
+
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  max-height: 630px;
+  max-width: 190px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dexbutton {
+  width: 80%;
+  margin: auto;
+  margin-top: 4px;
+}
+
+.mid {
+  margin: 7px;
+  margin-right: 0px;
+
+  background-color: #4499bb;
+  display: block;
+  flex-grow: 5;
+  flex-shrink: 1;
+  flex-basis: auto;
+
+}
+
+.row {
+margin:4px;
+}
+
+.right {
+  background-color: #4466aa;
+  margin: 7px;
+  border-radius: 4px;
+  min-height: 640px;
+
+  display: block;
+  flex-grow: 8;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  max-height: 630px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.title {
+  background-color: #aa00aa;
+  display: block;
+  //margin: -6px 50px 0;
+  width: 65%;
+  margin: auto;
+  margin-top: -6px;
+}
+
+table,
+td {
+  background-color: #aaaaaa;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 2px 5px;
+  min-width: 100px;
+}
+
+/*border*/
+.imag {
+  background-color: #00aa00;
+  margin: auto;
+  border: 2px solid;
+  border-radius: 4px;
+
+  width: 65%;
+
+  padding: 4px 0 0; /*hacks*/
+}
+
+/*image*/
+.imagg {
+  margin: 4px;
+}
+
+p {
+  margin: 4px;
+}
